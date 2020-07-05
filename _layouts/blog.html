@@ -2,7 +2,7 @@
 layout: default
 ---
 {%- assign _hsks = site.posts | sort: 'date' | reverse -%}
-{%- include header.html scrolly_nav=_posts -%}
+{%- include header.html scrolly_nav=_hsks -%}
 <!-- Main -->
 <div id="main">
 	{%- if page.content != "" -%}
