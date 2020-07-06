@@ -6,13 +6,8 @@ icon: fa-book
 order: 4
 ---
 
-{% assign row = site.data.authors[0] %}
-{% for pair in row %}
-  {{ pair | inspect }}
-{% endfor %}
-
 <table>
-  {% for row in site.data.authors %}
+  {% for row in site.data.hsk1 %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
