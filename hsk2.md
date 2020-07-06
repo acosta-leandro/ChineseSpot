@@ -1,5 +1,5 @@
 ---
-title: HSK-1
+title: HSK-2
 subtitle: a list of books I read
 layout: "page"
 icon: fa-book

@@ -1,6 +1,6 @@
 ---
 title: HSK-1
-subtitle: a list of books I read
+subtitle: Words from SK1
 layout: "page"
 icon: fa-book
 order: 4
