@@ -1,0 +1,30 @@
+---
+title: HSK 2
+subtitle: Words from HSK 2
+layout: "page"
+icon: fa-book
+order: 5
+---
+<hr>
+	<header>
+		<h2>HSK 2</h2>
+		<p>Ordered by phonetics</p>
+	</header>
+	<p>These files have been generated from the latest (as of November 2013) which word lists published by Hanban in September 2012</p>
+<hr />
+
+<table>
+  {% for row in site.data.hsk2 %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
