@@ -1,7 +1,7 @@
 ---
 title: HSK-1
 subtitle: Words from HSK1
-layout: "page"
+layout: "post"
 icon: fa-book
 order: 4
 ---
