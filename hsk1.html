@@ -1,16 +1,10 @@
 ---
 title: HSK 1
+subtitle: Ordered by phonetics
 layout: "page"
 icon: fa-book
 order: 4
 ---
-<hr>
-	<header>
-		<p>Ordered by phonetics</p>
-	</header>
-	<p>These files have been generated from the latest (as of November 2013) which word lists published by Hanban in September 2012</p>
-<hr />
-
 <table>
   {% for row in site.data.hsk1 %}
     {% if forloop.first %}
@@ -26,3 +20,5 @@ order: 4
     {% endtablerow %}
   {% endfor %}
 </table>
+
+<p>These files have been generated from the latest (as of November 2013) which word lists published by Hanban in September 2012</p>
