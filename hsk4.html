@@ -1,18 +1,10 @@
 ---
 title: HSK 4
-subtitle: Words from HSK 4
+subtitle: Ordered by phonetics
 layout: "page"
 icon: fa-book
 order: 7
 ---
-<hr>
-	<header>
-		<h2>HSK 4</h2>
-		<p>Ordered by phonetics</p>
-	</header>
-	<p>These files have been generated from the latest (as of November 2013) which word lists published by Hanban in September 2012</p>
-<hr />
-
 <table>
   {% for row in site.data.hsk4 %}
     {% if forloop.first %}
@@ -28,3 +20,6 @@ order: 7
     {% endtablerow %}
   {% endfor %}
 </table>
+
+
+<p>These files have been generated from the latest (as of November 2013) which word lists published by Hanban in September 2012</p>
